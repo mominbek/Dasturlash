@@ -1,2 +1,31 @@
 <!DOCTYPE html>
-<html lang="uz"><head><meta charset="UTF-8"><title>AIFU</title></head><body><p>Portal</p></body></html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIFU · Dasturlash fani</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app" id="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <img class="logo" src="img/aifu-logo.png" alt="AIFU">
+        <div class="brand-text">
+          <small>Aniq va Ijtimoiy Fanlar Universiteti</small>
+          <h1>Dasturlash fani</h1>
+        </div>
+      </div>
+      <button class="side-toggle" id="sideToggle" type="button">‹</button>
+      <input id="search" class="search" type="search" placeholder="Mavzu qidirish..." />
+      <nav id="nav"></nav>
+    </aside>
+    <main class="main" id="content"></main>
+  </div>
+  <script src="js/lectures.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
